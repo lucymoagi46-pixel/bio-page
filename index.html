@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omphemetse Moagi</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body> <a href="#main" class="skip-link">Skip to main content</a>
+
+<header>
+
+<nav class="navbar">
+    <span class="logo">My Page </span>
+    <div class="nav-links">
+  <a href="index.html" class="nav-link active">Home</a>
+  <a href="about.html" class="nav-link">About</a>
+  <a href="projects.html" class="nav-link">Projects</a>
+  <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+</nav>
+<button type="button" id="darkModeToggle">Dark Mode</button>
+
+
+<h1>WELCOME TO MY WEBPAGE </h1>
+
+</header>
+    
+<main id="main">
+
+<p style="font-family: Arial, Helvetica, sans-serif;">I'm a young, energetic and enthusiast System developer, who is willing to learn. I'm a good communicator and a problem solver. I am willing to grow and undertake new challenges.</p>
+    <h2>My Skills</h2>
+
+
+<ul>
+<li style="font-family: Arial, Helvetica, sans-serif;">Good Communicator</li>
+<li style="font-family: Arial, Helvetica, sans-serif;">Problem Solver</li>
+<li style="font-family: Arial, Helvetica, sans-serif;">Team Worker</li>  
+</ul>
+<img src="OIP.webp" 
+alt= "boardroom meeting" 
+width="300">
+
+<p><a href="#C1">Contact details</a></p>
+<p><a href="#C2">Email</a></p>
+<p><a href="#C3">Location</a></p>
+
+<h2 id="C1">Contact </h2>
+<p>+27 71 711 2333</p>
+<p>+27 83 949 6715</p>
+
+
+
+<h2 id="C2">Email </h2>
+<p>lucymoagi46@gmail.com</p>
+
+<h2 id="C3">Location</h2>
+<p>224c President Mbeki</p>
+
+</main>
+
+
+<div id="filter-buttons">
+  <button class="filter-btn active" data-category="All">All</button>
+  <button class="filter-btn" data-category="HTML">HTML</button>
+  <button class="filter-btn" data-category="CSS">CSS</button>
+</div>
+
+<div id="projects-grid"></div>
+
+
+<section class="projects-grid" id="projectsGrid"></section>
+ 
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+ 
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+ 
+    <label for="topic">Topic</label>
+    <select id="topic" name="topic">
+      <option value="general">General question</option>
+      <option value="project">Project idea</option>
+      <option value="feedback">Feedback</option>
+    </select>
+ 
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+ 
+    <button type="submit">Send</button>
+  </form>
+  <p id="formMessage" role="status"></p>
+</section>
+
+
+
+
+
+<footer> 
+    <p>&copy; 2026 Omphemetse</p>
+
+ </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
